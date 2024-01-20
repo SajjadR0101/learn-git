@@ -11,3 +11,7 @@ const addComponnets = () => {
 const getMe = (user) => {
     return user.name
 }
+
+const handleUserToken = (token) => {
+    localStorage.setItem('token', JSON.stringify(token))
+}
