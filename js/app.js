@@ -7,3 +7,7 @@ const addComponnets = () => {
 
     return true;
 }
+
+const getMe = (user) => {
+    return user.name
+}
